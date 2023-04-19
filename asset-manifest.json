@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo-doyourbest/static/css/main.dfafc9aa.css",
+    "main.js": "/todo-doyourbest/static/js/main.2a4b5a4c.js",
+    "index.html": "/todo-doyourbest/index.html",
+    "main.dfafc9aa.css.map": "/todo-doyourbest/static/css/main.dfafc9aa.css.map",
+    "main.2a4b5a4c.js.map": "/todo-doyourbest/static/js/main.2a4b5a4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfafc9aa.css",
+    "static/js/main.2a4b5a4c.js"
+  ]
+}
