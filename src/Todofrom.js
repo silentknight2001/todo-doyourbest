@@ -131,7 +131,7 @@ const TodoApp=()=> {
 
   return (
     <div className='head'>
-      <h5>listen to your Heart :)</h5>
+      <h5>listen to your Heart:)</h5>
       <h1>What's Your Plane Today</h1>
       <div className="f-form"> 
       <form onSubmit={handleFormSubmit}>
@@ -152,18 +152,6 @@ const TodoApp=()=> {
             <button onClick={() => handleDelete(index)}>Delete</button>
           </div>
         ))}
-{/* 
-{todos.map((todo, index) => (
-  <div className='next' key={index}>
-    <input
-      type="checkbox"
-      checked={todo.completed}
-      onChange={() => handleToggleComplete(index)}
-    />
-    <p style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>{todo.text}</p>
-    <button onClick={() => handleDelete(index)}>Delete</button>
-  </div>
-))} */}
       </div>
     </div>
   );
