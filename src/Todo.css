@@ -1,0 +1,99 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.f-form{
+    margin-bottom: 2rem;
+}
+.f-form > form > input{
+    height: 1.7rem;
+    width: 25rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    /* margin: 1rem 0 2rem 0; */
+}
+
+.f-form > form > button{
+    height: 1.8rem;
+    border: none;
+    background: linear-gradient(98.63deg, #257af9 0%, #ebab99 100%);
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 700;
+    color: beige;
+}
+
+.ul > .next > button{
+    height: 1.8rem;
+    border: none;
+    background: linear-gradient(98.63deg, rgb(106, 106, 228) 0%, rgb(57, 86, 219) 100%);
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: beige;
+}
+
+.ul .next{
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    align-items: center;
+    width: 50rem;
+    margin-top: 1rem;
+    background: linear-gradient(98.63deg, rgb(124, 124, 248) 0%, rgb(235, 112, 208) 100%);
+    border-radius: 5px;
+}
+
+.ul > .next > p{
+    margin: 0 1rem 0 1rem;
+}
+
+
+
+  @media only screen and (max-width: 480px) {
+
+    h1{
+      font-size: 22px;
+    }
+
+    .head {
+      margin-top: 5rem;
+    }
+     
+    .f-form > form > input {
+      width: 15rem;
+      max-width: none;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+
+    .f-form > form > button {
+      font-size: large;
+    }
+
+    .ul{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 20rem;
+    }
+
+    .ul > .next > input {
+      margin-left: 2rem;
+    }
+
+
+    .ul > .next > p {
+      font-weight: 600;
+      font-family:sans-serif;
+      font-size: 15px;
+      color: rgb(10, 8, 8);
+  
+    }
+   
+  }
+
