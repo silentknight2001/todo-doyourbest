@@ -131,7 +131,7 @@ const TodoApp=()=> {
 
   return (
     <div className='head'>
-      <h5>listen to your Heart:)</h5>
+      <h5>Listen To Your Heart:)</h5>
       <h1>What's Your Plane Today</h1>
       <div className="f-form"> 
       <form onSubmit={handleFormSubmit}>
